@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<root>
+
+<item>
+  <name>My Custom keyboard Mouse</name>
+  <identifier>remap.my_custom_keyboard_mouse</identifier>
+
+  <autogen>--KeyToKey-- KeyCode::U, VK_CONTROL,
+                        KeyCode::JIS_BRACKET_LEFT, ModifierFlag::COMMAND_L
+  </autogen>
+
+  <autogen>--KeyToKey-- KeyCode::O, VK_CONTROL,
+      KeyCode::JIS_BRACKET_RIGHT, ModifierFlag::COMMAND_L
+  </autogen>
+
+</item>
+</root>
+
